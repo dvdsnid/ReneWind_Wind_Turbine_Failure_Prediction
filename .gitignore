@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data files (keep datasets out of the repository unless licensed and intended)
+Train.csv
+Test.csv
+*.csv
+
+# Model artifacts
+*.h5
+*.keras
+saved_model/
+checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
